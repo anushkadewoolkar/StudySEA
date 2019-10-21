@@ -15,22 +15,22 @@ public class StudyActivity extends AppCompatActivity {
     }
 
     public void math (View v) {
-        Intent intent = new Intent(StudyActivity.this, StudyActivity.class);
+        Intent intent = new Intent(StudyActivity.this, MathActivity.class);
         startActivity(intent);
     }
 
     public void science (View v) {
-        Intent intent = new Intent(StudyActivity.this, StudyActivity.class);
+        Intent intent = new Intent(StudyActivity.this, ScienceActivity.class);
         startActivity(intent);
     }
 
     public void english (View v) {
-        Intent intent = new Intent(StudyActivity.this, StudyActivity.class);
+        Intent intent = new Intent(StudyActivity.this, EnglishActivity.class);
         startActivity(intent);
     }
 
     public void history (View v) {
-        Intent intent = new Intent(StudyActivity.this, StudyActivity.class);
+        Intent intent = new Intent(StudyActivity.this, HistoryActivity.class);
         startActivity(intent);
     }
 }
